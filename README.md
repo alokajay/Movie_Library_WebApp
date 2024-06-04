@@ -6,7 +6,6 @@ This is a simple movie library web application that allows users to sign up, log
 
 1. *User Authentication*: Users can sign up and log in.
 2. *Movie Search*: Users can search for movies using the OMDB API.
-3. *Movie Lists*: Users can create and manage movie lists (public or private).
 
 ## Tech Stack
 
