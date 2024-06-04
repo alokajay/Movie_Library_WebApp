@@ -27,5 +27,5 @@ Before you begin, ensure you have met the following requirements:
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/movie-library.git
+git clone https://github.com/alokajay/Movie_Library_WebApp.git
 cd movie-library
