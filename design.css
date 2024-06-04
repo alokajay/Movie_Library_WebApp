@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap');
+
+:root{
+    --md-dark-color: #1d1d1d;
+    --dark-color: #171717;
+    --light-dark-color: #292929;
+    --yellow-color: #d4aa11;
+}
+*{
+    padding: 0;
+    margin: 0;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+}
+body{
+    font-family: 'Inter', sans-serif;
+    background-color: var(--dark-color);
+}
+a{
+    text-decoration: none;
+}
+.wrapper{
+    min-height: 100vh;
+    background-color: var(--dark-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 2rem;
+    background-color: var(--md-dark-color);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+.logo{
+    text-align: center;
+    margin-bottom: 2rem;
+}
+.logo p{
+    font-size: 2rem;
+    color: #fff;
+    font-weight: bold;
+}
+.logo p span{
+    color: var(--yellow-color);
+}
+.form-container{
+    background-color: var(--dark-color);
+    padding: 2rem;
+    border-radius: 10px;
+}
+.form h2{
+    text-align: center;
+    margin-bottom: 1.5rem;
+    color: #fff;
+}
+.form-group{
+    margin-bottom: 1.5rem;
+}
+.form-group label{
+    display: block;
+    margin-bottom: 0.5rem;
+    color: #fff;
+}
+.form-group input{
+    width: 100%;
+    padding: 0.8rem;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    background-color: var(--light-dark-color);
+    color: #fff;
+    outline: none;
+}
+.form-group input[type="submit"] {
+    background-color: var(--yellow-color);
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    padding: 0.8rem 1.2rem;
+    transition: background-color 0.3s ease;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Adding a subtle shadow */
+    font-size: 1.1rem; /* Adjusting font size */
+}
+
+.form-group input[type="submit"]:hover {
+    background-color: #c4a40c;
+}
+
+
+.form p{
+    text-align: center;
+    margin-top: 1rem;
+    color: #fff;
+}
+.form p a{
+    color: var(--yellow-color);
+}
+.form p a:hover{
+    text-decoration: underline;
+}

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="design.css">
+    <script>
+        function redirectToIndex() {
+            window.location.href = "index.html";
+        }
+    </script>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="container">
+            <div class="logo">
+                <p>Movie <span>Library</span></p>
+            </div>
+            <div class="form">
+                <form id="login-form">
+                    <h2>Login</h2>
+                    <div class="form-group">
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" class="form-control" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="password">Password:</label>
+                        <input type="password" id="password" name="password" class="form-control" required>
+                    </div>
+                    <button type="button" class="form-control" onclick="redirectToIndex()">Login</button>
+                    <p>Don't have an account? <a href="signup.html">Sign up here</a></p>
+                    <form class="form" id="login-form" action="http://localhost:5000/api/auth/login" method="POST">
+
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
